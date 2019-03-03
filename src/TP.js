@@ -67,7 +67,12 @@ class TP extends React.Component{
     gettotal=(event)=>{
         this.setState({total:event.target.value})
     }
-    /*-------------------------------------------*/
+    /*------
+    -------------------------------------*/
+
+    /*Asychron
+    this.setState{[e.target.name],val},()
+     */
     
 
     render(){
